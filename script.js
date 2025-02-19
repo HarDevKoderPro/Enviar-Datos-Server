@@ -9,7 +9,6 @@ const inputNombre = getEl("inputNombre");
 const inputApellido = getEl("inputApellido");
 const inputEdad = getEl("inputEdad");
 const btnEnviar = getEl("btnEnviar");
-const spanResultados = getEl("spanResultados");
 
 // -------------------------------------------
 // PROGRAMA PRINCIPAL
