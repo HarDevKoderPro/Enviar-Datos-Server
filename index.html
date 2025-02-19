@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0'>
+  <title>Enviar Datos Server</title>
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel='stylesheet' href='./style.css'>
+  <link rel="shortcut icon" href="./Code.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./sweetalert2.css">
+  <script src="./sweetalert2.min.js"></script>
+</head>
+
+<body>
+  <!-- Contenedor General -->
+  <div class="contenedorGeneral">
+    <!-- Formulario -->
+    <div class="formulario">
+
+      <div class="tituloPrincipal">Enviar Datos Server</div>
+
+      <!-- Input Nombre -->
+      <label class="label">
+        <input type="text" class="label__input" id="inputNombre" placeholder=" " autocomplete="">
+        <span class="label__span">Nombre</span>
+      </label>
+
+      <!-- Input Apellido-->
+      <label class="label">
+        <input type="text" class="label__input" id="inputApellido" placeholder=" " autocomplete="">
+        <span class="label__span">Apellido</span>
+      </label>
+
+      <!-- Input Edad -->
+      <label class="label">
+        <input type="number" class="label__input" id="inputEdad" placeholder=" " autocomplete="">
+        <span class="label__span">Edad</span>
+      </label>
+
+      <!-- Botón de validación -->
+      <button class="btnEnviar" id="btnEnviar">Enviar</button>
+      <!-- Links inferiores -->
+      <span class="spanResultados" id="spanResultados">Resultados..</span>
+    </div>
+  </div>
+
+
+
+  <script src='script.js' type="module" defer></script>
+</body>
+
+</html>
