@@ -3,8 +3,13 @@
 $data = json_decode(file_get_contents("php://input"), true);
 $respuesta = '';
 
-// Configurar credenciales de conexión a la base de datos
+// Configuración Remota (Servidor Externo)
 // $host = "190.8.176.115"; // Desarrollo Remoto
+// $user = "tucultur";      // Usuario de MySQL
+// $password = "@GWMU!J4p-mgyTJ7";      // Contraseña de MySQL
+// $dbname = "tucultur_pruebas"; // Nombre de la base de datos
+
+// Configuración Local (Localhost)
 $host = "localhost"; // Desarrollo Local
 $user = "root";      // Usuario de MySQL
 $password = "";      // Contraseña de MySQL
