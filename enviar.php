@@ -4,10 +4,10 @@ $data = json_decode(file_get_contents("php://input"), true);
 $respuesta = '';
 
 // Configuración Remota (Servidor Externo)
-// $host = "190.8.176.115"; // Desarrollo Remoto
-// $user = "tucultur";      // Usuario de MySQL
-// $password = "@GWMU!J4p-mgyTJ7";      // Contraseña de MySQL
-// $dbname = "tucultur_pruebas"; // Nombre de la base de datos
+/* $host = "190.8.176.115"; // Desarrollo Remoto
+$user = "tucultur";      // Usuario de MySQL
+$password = "@GWMU!J4p-mgyTJ7";      // Contraseña de MySQL
+$dbname = "tucultur_pruebas"; // Nombre de la base de datos */
 
 // Configuración Local (Localhost)
 $host = "localhost"; // Desarrollo Local
@@ -30,7 +30,7 @@ if ($conn->connect_error) {
 if (isset(
   $data['nombre'],
   $data['apellido'],
-  $data['edad'],
+  $data['edad']
 )) {
 
   // Pasar contenido de variables JS a variables PHP y elimino espacios al inicio y al final
